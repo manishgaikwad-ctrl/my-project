@@ -1,0 +1,16 @@
+.fancy-border {
+  width: 100%;
+  height: 150px;
+  text-align: center;
+  border-bottom: 5px solid;
+  border-image: linear-gradient(
+      to right,
+      grey 25%,
+      yellow 25%,
+      yellow 50%,
+      red 50%,
+      red 75%,
+      teal 75%
+    )
+    5;
+}
